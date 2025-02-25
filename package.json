@@ -2,9 +2,9 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "description": "Bot Telegram utilisant node-telegram-bot-api et MongoDB avec Mongoose",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "author": "Votre Nom",
   "license": "MIT",
