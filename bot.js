@@ -51,12 +51,16 @@ const messages = {
     english: "Please enter your 1win ID to connect it to the program.",
     russe: "Пожалуйста, введите ваш ID 1win для подключения к программе."
   },
-  invalidID: {
-    francais: "Votre ID est refusé. Vous devez créer un nouveau compte professionnel [en cliquant ici](https://1wmnt.com/?open=register#j7rc).\nBesoin d'aide ? contactez admis 👉 @medatt00",
-    english: "Your ID is refused. You need to create a new professional account [by clicking here](https://1wmnt.com/?open=register#j7rc).\nNeed help? contact admitted 👉 @medatt00.",
-    russe: "Ваш ID отклонён. Вам необходимо создать новую профессиональную учетную запись [нажав здесь](https://1wmnt.com/?open=register#j7rc).\nНужна помощь? обращайтесь к 👉 @medatt00"
-  }
-};
+invalidID: {
+    francais: "Votre ID est refusé. Vous devez créer un nouveau compte professionnel avec le code promo Zfree221 [en cliquant ici](https://1wmnt.com/?open=register#j7rc).\nAprès avoir cliqué, cliquez encore sur 'Next'.\nBesoin d'aide ? Contactez l'admin 👉 @medatt00.",
+    english: "Your ID has been refused. You need to create a new professional account [by clicking here](https://1wmnt.com/?open=register#j7rc).\nAfter clicking, click 'Next' again.\nNeed help? Contact the admin 👉 @medatt00.",
+    russe: "Ваш ID отклонён. Вам необходимо создать новую профессиональную учетную запись [нажав здесь](https://1wmnt.com/?open=register#j7rc).\nПосле нажатия снова нажмите 'Next'.\nНужна помощь? Обращайтесь к админу 👉 @medatt00.",
+    inline_keyboard: [
+        [{ "text": "Sign up", "url": "https://1wmnt.com/?open=register#j7rc" }],
+        [{ "text": "Next ➡️", "callback_data": "suivant" }]
+    ]
+}
+
 
 // =======================================
 // FONCTION D'ENREGISTREMENT DE L'UTILISATEUR
