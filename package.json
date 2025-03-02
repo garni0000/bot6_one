@@ -1,15 +1,24 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Bot Telegram utilisant node-telegram-bot-api et MongoDB avec Mongoose",
+  "description": "Un bot Telegram utilisant Node.js et Mongoose.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
-  "author": "Votre Nom",
-  "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0",
-    "mongoose": "^7.0.0"
-  }
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "",
+  "license": "ISC"
 }
