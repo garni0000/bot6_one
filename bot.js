@@ -37,7 +37,7 @@ const userSchema = new mongoose.Schema({
   language: String,
   createdAt: { type: Date, default: Date.now }
 });
-const User = mongoose.model('User100', userSchema);
+const User = mongoose.model('Userwin', userSchema);
 
 // =======================================
 // VARIABLES GLOBALES
